@@ -1,6 +1,6 @@
 #include <SD.h>
 #include <SPI.h>
-
+// #### Good to have a general description of what this code is suppose to do. 
 const int chipSelect = BUILTIN_SDCARD; 
 
 int EWP,RAD,ACC.GLV; 
@@ -12,7 +12,6 @@ void setup()
    while (!Serial) {
     ; // wait for serial port to connect.
   }
-
 
   Serial.print("Initializing SD card...");
   
